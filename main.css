@@ -84,11 +84,11 @@
    animation-duration: 1.5s;
  }
 @-webkit-keyframes fade {
-   from {opacity: .4}
+   from {opacity: .3}
    to {opacity: 1}
  }
 @keyframes fade {
-   from {opacity: .4}
+   from {opacity: .3}
    to {opacity: 1}
  }
  .about{
@@ -142,21 +142,21 @@
     position: relative;
    }
    .team .des{
-    background: #072401ea;
+    background: #668f5dea;
     color: #fff;
     text-align: center;
     border-bottom-left-radius: 93%;
     transition:.3s ease-in-out;
    }
-   .team .item:hover .des{
+   .team .item:hover .des {
     height: 100%;
-    background: #1f582d;;
+    background: #00f9157d;
     position: absolute;
     width: 89%;
     padding: 5em;
     top: 0;
     border-bottom-left-radius: 0;
-   }
+}
    .contact-form{
     margin: 6em 0;
     position: relative;  
